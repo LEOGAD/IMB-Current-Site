@@ -1,0 +1,6 @@
+{
+  "name": "IMB HOME FINISHERS",
+  "description": "A prestigious high-class interior design studio specializing in bespoke spaces, architectural curation, and luxury home styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
