@@ -98,13 +98,13 @@ export const siteContent = {
   // General Info
   companyName: "IMB HOME FINISHERS",
   tagline: "Interior Architecture",
-  slogan: "High-Class Interior Architecture & Bespoke Finishes",
+  slogan: "Bespoke Interior Architecture & Finishes",
   foundingYear: "2011",
-  officeLocations: ["Vienna", "Milan", "Tokyo"],
-  headOfficeCity: "Vienna",
+  officeLocations: ["Port Harcourt", "Rivers State"],
+  headOfficeCity: "Port Harcourt",
   email: "concierge@imbhomes.com",
-  phone: "+43 1 512 0000",
-  copyright: "© 2026 IMB HOME FINISHERS Ltd. All rights reserved.",
+  phone: "+234 803 555 0199",
+  copyright: "© 2026 IMB HOME FINISHERS. All rights reserved.",
 
   // Navigation Links / Tabs
   // Only the simplified main views as requested by user
@@ -117,10 +117,10 @@ export const siteContent = {
   ],
 
   // Footer Content
-  footerDescription: "We translate abstract aspirations into tactile physical spaces with architectural honesty. Operating globally out of Vienna, Milan, and Tokyo.",
-  newsletterTitle: "IMB Home Finishers Journal",
-  newsletterSubtext: "Subscribe to receive curated architectural digests, material arrivals, and private tour openings.",
-  newsletterWelcomeMessage: "Subscription confirmed. Welcome to the IMB Home Finishers Circle.",
+  footerDescription: "Translating abstract aspirations into tactile physical spaces with architectural honesty. Operating from Rumuokwachi, Port Harcourt, Rivers State.",
+  newsletterTitle: "IMB Journal",
+  newsletterSubtext: "Subscribe to receive curated architectural digests and project updates.",
+  newsletterWelcomeMessage: "Subscription confirmed. Welcome to the IMB Circle.",
 
   // Home View Content
   homeHeroTitle: "Translating Aspirations Into Spatial Stillness.",

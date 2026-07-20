@@ -51,25 +51,25 @@ export default function Navbar({
       <header
         className={`fixed top-0 inset-x-0 z-40 transition-all duration-500 ${
           scrolled
-            ? "bg-secondary/90 dark:bg-charcoal/90 backdrop-blur-lg border-b border-accent/10 py-3 shadow-md"
-            : "bg-transparent py-5"
+            ? "bg-secondary/90 dark:bg-charcoal/90 backdrop-blur-lg border-b border-accent/10 py-2 sm:py-3 shadow-md"
+            : "bg-transparent py-3.5 sm:py-5"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-8 flex items-center justify-between">
           {/* Logo */}
           <button
             onClick={() => onNavigate("home")}
-            className="flex items-center space-x-3 text-left cursor-pointer group"
+            className="flex items-center space-x-1.5 sm:space-x-3 text-left cursor-pointer group"
           >
-            <div className="relative flex items-center justify-center w-8 h-8 rounded-full border border-accent/30 group-hover:border-accent transition-all duration-700 bg-secondary/10 dark:bg-charcoal/10 overflow-hidden">
-              <Compass className="w-4 h-4 text-accent group-hover:rotate-180 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]" />
+            <div className="relative flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-accent/30 group-hover:border-accent transition-all duration-700 bg-secondary/10 dark:bg-charcoal/10 overflow-hidden">
+              <Compass className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-accent group-hover:rotate-180 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]" />
               <div className="absolute inset-0 bg-accent/5 scale-0 group-hover:scale-100 transition-transform duration-500 rounded-full" />
             </div>
             <div>
-              <span className="font-serif text-lg tracking-[0.16em] font-medium text-primary dark:text-secondary block leading-none">
+              <span className="font-serif text-sm sm:text-lg tracking-[0.1em] sm:tracking-[0.16em] font-medium text-primary dark:text-secondary block leading-none">
                 {siteContent.companyName}
               </span>
-              <span className="text-[7.5px] font-mono tracking-[0.38em] text-accent uppercase block mt-1.5 leading-none">
+              <span className="text-[6.5px] sm:text-[7.5px] font-mono tracking-[0.2em] sm:tracking-[0.38em] text-accent uppercase block mt-1 sm:mt-1.5 leading-none">
                 {siteContent.tagline}
               </span>
             </div>
@@ -105,16 +105,16 @@ export default function Navbar({
           </nav>
 
           {/* Right Action buttons */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-1.5 sm:space-x-3.5">
             {/* Procurement / Quote count */}
             <button
               onClick={() => onNavigate("catalog")}
-              className="p-2.5 rounded-full border border-accent/20 bg-secondary/40 dark:bg-charcoal/40 hover:bg-accent/10 transition-colors duration-300 relative cursor-pointer"
+              className="p-1.5 sm:p-2.5 rounded-full border border-accent/20 bg-secondary/40 dark:bg-charcoal/40 hover:bg-accent/10 transition-colors duration-300 relative cursor-pointer"
               title="View your curated selection"
             >
-              <FileText className="w-4 h-4 text-primary dark:text-secondary" />
+              <FileText className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary dark:text-secondary" />
               {quoteCount > 0 && (
-                <span className="absolute -top-1 -right-1 w-4.5 h-4.5 bg-accent text-primary text-[10px] font-mono font-bold rounded-full flex items-center justify-center border-2 border-secondary dark:border-charcoal">
+                <span className="absolute -top-1 -right-1 w-4 h-4 sm:w-4.5 sm:h-4.5 bg-accent text-primary text-[8px] sm:text-[10px] font-mono font-bold rounded-full flex items-center justify-center border-2 border-secondary dark:border-charcoal">
                   {quoteCount}
                 </span>
               )}
@@ -126,13 +126,13 @@ export default function Navbar({
             {/* High class Menu Toggle Button */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="flex items-center space-x-2 px-3 py-2 rounded-full border border-accent/25 hover:border-accent bg-accent/5 hover:bg-accent/10 text-primary dark:text-secondary transition-all duration-300 cursor-pointer group"
+              className="flex items-center space-x-1 sm:space-x-2 px-2 sm:px-3 py-1.5 sm:py-2 rounded-full border border-accent/25 hover:border-accent bg-accent/5 hover:bg-accent/10 text-primary dark:text-secondary transition-all duration-300 cursor-pointer group"
               aria-label="Toggle directory index"
             >
-              <span className="text-[9px] font-mono uppercase tracking-widest text-accent font-semibold px-1 hidden sm:inline-block">
+              <span className="text-[9px] font-mono uppercase tracking-widest text-accent font-semibold px-1 hidden md:inline-block">
                 Directory
               </span>
-              <div className="w-4 h-4 relative flex flex-col justify-center space-y-1.5">
+              <div className="w-4 h-4 relative flex flex-col justify-center space-y-1 sm:space-y-1.5">
                 <span className="w-4 h-0.5 bg-accent transition-transform duration-300" />
                 <span className="w-3 h-0.5 bg-accent self-end transition-transform duration-300 group-hover:w-4" />
               </div>

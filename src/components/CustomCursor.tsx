@@ -18,6 +18,13 @@ export default function CustomCursor() {
   const cursorYSpring = useSpring(cursorY, springConfig);
 
   useEffect(() => {
+    // Only enable on desktop/mouse devices
+    const touchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0 || window.innerWidth < 768;
+    if (touchDevice) {
+      setIsVisible(false);
+      return;
+    }
+
     const handleMouseMove = (e: MouseEvent) => {
       cursorX.set(e.clientX);
       cursorY.set(e.clientY);
@@ -47,12 +54,6 @@ export default function CustomCursor() {
     window.addEventListener("mousemove", handleMouseMove);
     document.addEventListener("mouseleave", handleMouseLeaveWindow);
     window.addEventListener("mouseover", handleMouseOver);
-
-    // Only enable on desktop/mouse devices
-    const touchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
-    if (touchDevice) {
-      setIsVisible(false);
-    }
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);

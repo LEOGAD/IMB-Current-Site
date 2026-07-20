@@ -18,22 +18,10 @@ export default function ContactView() {
 
   const offices = [
     {
-      city: "Vienna Studio (HQ)",
-      address: "Herrengasse 14, 1010 Wien, Austria",
+      city: "Port Harcourt Office (HQ)",
+      address: "Rumuokwachi, Port Harcourt, Rivers State, Nigeria",
       phone: siteContent.phone,
-      email: "vienna@imbhomes.com",
-    },
-    {
-      city: "Milan Showroom",
-      address: "Via Montenapoleone 8, 20121 Milano, Italy",
-      phone: "+39 02 7600 3921",
-      email: "milan@imbhomes.com",
-    },
-    {
-      city: "Positano Office",
-      address: "Via Cristoforo Colombo 45, 84017 Positano, Italy",
-      phone: "+39 089 875 110",
-      email: "positano@imbhomes.com",
+      email: siteContent.email,
     }
   ];
 
@@ -207,10 +195,10 @@ export default function ContactView() {
 
         {/* VECTOR STYLED COHESION MAP ARTWORK - RIGHT (3 COLS) */}
         <div className="lg:col-span-3 bg-secondary/30 dark:bg-charcoal/30 border border-accent/10 rounded-2xl p-6 text-center space-y-4">
-          <span className="text-[10px] font-mono uppercase text-accent tracking-widest block">European Hub Grid</span>
-          <h4 className="font-serif text-lg text-primary dark:text-secondary font-medium italic">Atelier Map Curation</h4>
+          <span className="text-[10px] font-mono uppercase text-accent tracking-widest block">Regional Hub Grid</span>
+          <h4 className="font-serif text-lg text-primary dark:text-secondary font-medium italic">Atelier Coordinates</h4>
           <p className="text-[11px] text-primary/70 dark:text-secondary/70 leading-relaxed font-sans">
-            By avoiding third-party commercial offices, we establish private historical studios. Map routes connect Milan stone yards directly to Vienna draftsmen.
+            Establishing our central studio in Port Harcourt, Rivers State to deliver world-class interior architecture services.
           </p>
 
           {/* Aesthetic vector representation drawing */}
@@ -221,22 +209,18 @@ export default function ContactView() {
             </div>
 
             <div className="text-left font-mono text-[9px] text-accent leading-none space-y-1">
-              <span>LAT: 48.2082° N</span>
-              <span>LON: 16.3738° E</span>
+              <span>LAT: 4.8156° N</span>
+              <span>LON: 7.0498° E</span>
             </div>
 
             <div className="space-y-4 relative z-10 text-left">
               <div className="border-l border-accent/30 pl-3">
-                <span className="font-serif text-xs italic text-primary dark:text-secondary">Vienna</span>
-                <span className="text-[8px] font-mono text-accent block uppercase">{siteContent.contactHeadOfficeLabel}</span>
+                <span className="font-serif text-xs italic text-primary dark:text-secondary">Rumuokwachi</span>
+                <span className="text-[8px] font-mono text-accent block uppercase">Port Harcourt</span>
               </div>
               <div className="border-l border-accent/30 pl-3">
-                <span className="font-serif text-xs italic text-primary dark:text-secondary">Milan</span>
-                <span className="text-[8px] font-mono text-accent block uppercase">Procurement Depot</span>
-              </div>
-              <div className="border-l border-accent/30 pl-3">
-                <span className="font-serif text-xs italic text-primary dark:text-secondary">Positano</span>
-                <span className="text-[8px] font-mono text-accent block uppercase">Coastal Curation</span>
+                <span className="font-serif text-xs italic text-primary dark:text-secondary">Rivers State</span>
+                <span className="text-[8px] font-mono text-accent block uppercase">Nigeria</span>
               </div>
             </div>
 

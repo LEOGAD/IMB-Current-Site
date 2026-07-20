@@ -43,10 +43,10 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <Compass className="w-4.5 h-4.5 text-accent group-hover:rotate-180 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]" />
               </div>
               <div>
-                <span className="font-serif text-xl tracking-[0.16em] font-medium text-primary dark:text-secondary block leading-none">
+                <span className="font-serif text-base sm:text-xl tracking-[0.16em] font-medium text-primary dark:text-secondary block leading-none">
                   {siteContent.companyName}
                 </span>
-                <span className="text-[8.5px] font-mono tracking-[0.35em] text-accent uppercase block mt-1.5 leading-none">
+                <span className="text-[7.5px] sm:text-[8.5px] font-mono tracking-[0.25em] sm:tracking-[0.35em] text-accent uppercase block mt-1 sm:mt-1.5 leading-none">
                   {siteContent.tagline}
                 </span>
               </div>
