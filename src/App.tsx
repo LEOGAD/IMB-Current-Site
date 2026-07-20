@@ -35,6 +35,7 @@ export default function App() {
 
   // Procurement quote selections
   const [quoteItems, setQuoteItems] = useState<Product[]>([]);
+  const [showQuoteToast, setShowQuoteToast] = useState(false);
 
   // Detailed Modal Overlays
   const [focusedProject, setFocusedProject] = useState<Project | null>(null);
@@ -85,10 +86,11 @@ export default function App() {
 
   const handleSubmitQuote = () => {
     // Submitting packages catalog selection items directly into Consultation schedule
-    alert(
-      `Procurement package draft successfully compiled with ${quoteItems.length} items.\n\nNow redirecting you to our Consultation booking form to complete your physical coordinates submission.`
-    );
-    handleNavigate("book");
+    setShowQuoteToast(true);
+    setTimeout(() => {
+      setShowQuoteToast(false);
+      handleNavigate("book");
+    }, 4500);
   };
 
   const renderView = () => {
@@ -125,13 +127,7 @@ export default function App() {
                 Explore our private material showroom. Click individual slabs, fumed Oak hardwoods, or unlacquered brass to analyze origin metrics, finish durability, and acoustic absorption scores.
               </p>
             </div>
-            <MaterialLibrary
-              onSelectMaterial={(mat) =>
-                alert(
-                  `Material Selected: ${mat.name}\nOrigin: ${mat.origin}\nDurability Score: ${mat.durability}\nAbsorption Score: ${mat.absorption}\n\nDetails:\n${mat.details}`
-                )
-              }
-            />
+            <MaterialLibrary />
           </div>
         );
       case "blog":
@@ -180,6 +176,36 @@ export default function App() {
 
       {/* Editorial Grand Footer */}
       <Footer onNavigate={handleNavigate} />
+
+      {/* Floating High-Contrast Glassmorphic Notification Toast */}
+      <AnimatePresence>
+        {showQuoteToast && (
+          <motion.div
+            initial={{ opacity: 0, y: 50, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 20, scale: 0.95 }}
+            className="fixed bottom-6 right-6 z-50 max-w-sm p-5 bg-charcoal/95 dark:bg-secondary/95 text-secondary dark:text-primary rounded-2xl border border-accent/20 shadow-2xl backdrop-blur-md space-y-3"
+          >
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center">
+                <span className="text-accent text-sm font-serif italic">IMB</span>
+              </div>
+              <h5 className="font-serif text-sm font-bold tracking-tight">Procurement Compiled</h5>
+            </div>
+            <p className="text-[11px] leading-relaxed opacity-90 font-sans">
+              Procurement package draft successfully compiled with <strong>{quoteItems.length} items</strong>. We are now redirecting you to our private consultation booking desk...
+            </p>
+            <div className="h-1 bg-accent/20 rounded-full overflow-hidden">
+              <motion.div
+                initial={{ width: "100%" }}
+                animate={{ width: "0%" }}
+                transition={{ duration: 4.5, ease: "linear" }}
+                className="h-full bg-accent"
+              />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* HIGH-END INTERACTIVE PORTFOLIO & SPECIFICATION DETAILS OVERLAY MODALS */}
       <AnimatePresence>

@@ -39,16 +39,16 @@ export const SERVICES: ServiceItem[] = [
 export const PROJECTS: Project[] = [
   {
     id: "vienna-penthouse",
-    title: "Vienna Modernist Penthouse",
+    title: "Lekki Modernist Penthouse",
     category: "Residential",
-    description: "A seamless synthesis of mid-century minimalism and warm modernist accents. The space utilizes polished travertine, dark walnut, and expansive linen partitions to invite natural light.",
+    description: "A seamless synthesis of contemporary African minimalism and warm modernist accents. The space utilizes polished local travertine, dark mahogany, and expansive hand-woven linen partitions to invite natural light.",
     image: siteImages.projectViennaHero,
     beforeImage: siteImages.projectViennaBefore,
     afterImage: siteImages.projectViennaAfter,
-    location: "Vienna, Austria",
+    location: "Lekki, Lagos, Nigeria",
     year: "2025",
     area: "3,400 sq. ft.",
-    client: "Private Collector",
+    client: "Chief Adeleke",
     scope: ["Full Spatial Layout Restructuring", "Custom Travertine Millwork", "Bespoke Lighting Design", "Furniture Curation"],
     images: [
       siteImages.projectViennaGallery1,
@@ -60,37 +60,37 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "amalfi-villas",
-    title: "Amalfi Cliffside Sanctuary",
+    title: "Port Harcourt Waterfront Retreat",
     category: "Villas",
-    description: "Perched high above the Mediterranean, this villa honors organic textures with custom stucco, raw limestone slabs, and neutral-toned linen furnishings.",
+    description: "Perched gracefully along the river, this villa honors organic textures with custom plaster, raw Kogi travertine slabs, and neutral-toned linen furnishings.",
     image: siteImages.projectAmalfiHero,
     beforeImage: siteImages.projectAmalfiBefore,
     afterImage: siteImages.projectAmalfiAfter,
-    location: "Positano, Italy",
+    location: "Rumuokwachi, Port Harcourt, Rivers State",
     year: "2024",
     area: "6,800 sq. ft.",
-    client: "Altman Estates",
+    client: "Senator Dr. Alabi",
     scope: ["Exterior & Interior Cohesion", "Infinity Pool Lounge Planning", "Bespoke Limestone Fireplace", "Imported Antique Accents"],
     images: [
       siteImages.projectAmalfiGallery1,
       siteImages.projectAmalfiGallery2,
       siteImages.projectAmalfiGallery3
     ],
-    threeDPreview: "Interact with our cliffside interactive 3D tour. Hand-selected stone surfaces."
+    threeDPreview: "Interact with our interactive 3D tour. Hand-selected stone surfaces."
   },
   {
     id: "tokyo-minimalist-residence",
-    title: "Tokyo Minimalist Pavillion",
+    title: "Abuja Minimalist Pavilion",
     category: "Residential",
-    description: "A deeply calming residential sanctuary utilizing Hinoki wood, microcement, and hidden storage systems to deliver an absolute state of Zen.",
+    description: "A deeply calming residential sanctuary utilizing rich local teak, microcement, and hidden storage systems to deliver an absolute state of Zen.",
     image: siteImages.projectTokyoHero,
     beforeImage: siteImages.projectTokyoBefore,
     afterImage: siteImages.projectTokyoAfter,
-    location: "Tokyo, Japan",
+    location: "Maitama, Abuja, Nigeria",
     year: "2024",
     area: "2,200 sq. ft.",
-    client: "Nakamura Family",
-    scope: ["Japanese Architectural Integrity", "Bespoke Hinoki Wood Joinery", "Recessed Indirect Lighting", "Tatami Lounge Curation"],
+    client: "The Okon Family",
+    scope: ["Architectural Integrity", "Bespoke Teak Joinery", "Recessed Indirect Lighting", "Lounge Curation"],
     images: [
       siteImages.projectTokyoGallery1,
       siteImages.projectTokyoGallery2
@@ -98,16 +98,16 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "berlin-office",
-    title: "Berlin Creative Headquarters",
+    title: "Enugu Creative Hub",
     category: "Commercial",
-    description: "An adaptive reuse project turning an old power-station into a premium open-space workspace with raw concrete columns, industrial steel dividers, and velvet soundproofing booths.",
+    description: "An adaptive reuse project turning a heritage colonial structure into a premium open-space workspace with raw concrete columns, industrial steel dividers, and velvet soundproofing booths.",
     image: siteImages.projectBerlinHero,
     beforeImage: siteImages.projectBerlinBefore,
     afterImage: siteImages.projectBerlinAfter,
-    location: "Berlin, Germany",
+    location: "Independence Layout, Enugu, Nigeria",
     year: "2025",
     area: "12,000 sq. ft.",
-    client: "Vektor Labs GmbH",
+    client: "Vektor Labs Nigeria",
     scope: ["Acoustic Zoning Layout", "Industrial Architectural Preservation", "Modular Custom Desking", "Lush Bio-philic Design"],
     images: [
       siteImages.projectBerlinGallery1,
@@ -122,7 +122,7 @@ export const PRODUCTS: Product[] = [
     name: "Elysian Modular Bouclé Sofa",
     category: "Living Room",
     price: 6850,
-    material: "Alpaca Bouclé & Smoked Oak",
+    material: "Alpaca Bouclé & Smoked Mahogany",
     brand: "IMB Home Finishers Atelier",
     collection: "L'Horizon",
     image: siteImages.productElysianMain,
@@ -130,7 +130,7 @@ export const PRODUCTS: Product[] = [
       siteImages.productElysianGallery1,
       siteImages.productElysianGallery2
     ],
-    description: "Crafted with dynamic luxury in mind, the Elysian Modular Sofa features an expansive low profile upholstered in premium Italian Alpaca Bouclé. Its base of brushed oak sits flush with the ground, providing an anchored, grounding aesthetic.",
+    description: "Crafted with dynamic luxury in mind, the Elysian Modular Sofa features an expansive low profile upholstered in premium Alpaca Bouclé. Its base of brushed mahogany sits flush with the ground, providing an anchored, grounding aesthetic.",
     rating: 4.9,
     reviewsCount: 14,
     dimensions: "W: 120\" x D: 42\" x H: 28\"",
@@ -138,7 +138,7 @@ export const PRODUCTS: Product[] = [
       "Frame: Kiln-dried solid hardwood with reinforced corners",
       "Upholstery: 72% Alpaca, 20% Wool, 8% Nylon",
       "Fill: High-density down feather wrapped memory foam",
-      "Legs: Premium FSC-certified Solid European White Oak"
+      "Legs: Premium FSC-certified Solid Nigerian Mahogany"
     ],
     downloads: ["3D CAD Model (DWG)", "Technical Specification PDF", "Upholstery Care Sheet"],
     available: true,
@@ -146,10 +146,10 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "travertine-table",
-    name: "IMB Home Finishers Travertine Coffee Table",
+    name: "IMB Travertine Coffee Table",
     category: "Living Room",
     price: 3400,
-    material: "Honed Italian Travertine",
+    material: "Honed Kogi Travertine",
     brand: "IMB Home Finishers Atelier",
     collection: "Antica",
     image: siteImages.productTravertineMain,
@@ -157,14 +157,14 @@ export const PRODUCTS: Product[] = [
       siteImages.productTravertineGallery1,
       siteImages.productTravertineGallery2
     ],
-    description: "An sculptural masterpiece hand-carved from a single monolith of unfilled Italian Travertine. The raw but smooth matte texture highlights millions of years of sediment layering.",
+    description: "A sculptural masterpiece hand-carved from a single monolith of unfilled Kogi Travertine. The raw but smooth matte texture highlights millions of years of sediment layering.",
     rating: 4.8,
     reviewsCount: 8,
     dimensions: "W: 48\" x D: 48\" x H: 14\"",
     specifications: [
-      "Material: Unfilled matte Italian Travertine",
+      "Material: Unfilled matte Kogi Travertine",
       "Finish: Honed and water-repellent sealed",
-      "Origin: Tuscany, Italy",
+      "Origin: Kogi State, Nigeria",
       "Weight: 185 lbs"
     ],
     downloads: ["Material Care Sheet (PDF)", "Tearsheet (PDF)"],
@@ -177,7 +177,7 @@ export const PRODUCTS: Product[] = [
     category: "Lighting",
     price: 1850,
     material: "Satin Brass & Opaline Glass",
-    brand: "Giacometti Light",
+    brand: "Okafor Lights",
     collection: "Celestial",
     image: siteImages.productLuminaMain,
     images: [
@@ -199,10 +199,10 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "zenith-bed",
-    name: "Zenith Belgian Linen Bed",
+    name: "Zenith Nigerian Cotton Bed",
     category: "Bedroom",
     price: 5200,
-    material: "Belgian Linen & Walnut",
+    material: "Nigerian Cotton & Mahogany",
     brand: "IMB Home Finishers Atelier",
     collection: "Nid",
     image: siteImages.productZenithMain,
@@ -210,14 +210,14 @@ export const PRODUCTS: Product[] = [
       siteImages.productZenithGallery1,
       siteImages.productZenithGallery2
     ],
-    description: "An elegant oasis of rest, the Zenith bed features a deeply padded headboard upholstered in high-weight organic Belgian linen, floating effortlessly over a slender American Walnut frame.",
+    description: "An elegant oasis of rest, the Zenith bed features a deeply padded headboard upholstered in high-weight organic Nigerian cotton, floating effortlessly over a slender local Mahogany frame.",
     rating: 4.7,
     reviewsCount: 11,
     dimensions: "W: 84\" x D: 88\" x H: 46\" (King)",
     specifications: [
-      "Fabric: 100% Organic Belgian Flax Linen",
+      "Fabric: 100% Organic Cotton",
       "Support: Multi-slat orthopedic design, no box spring required",
-      "Legs: Oil-rubbed Solid American Walnut",
+      "Legs: Oil-rubbed Solid Nigerian Mahogany",
       "Upholstery Care: Professional dry-clean only"
     ],
     downloads: ["Assembly Instructions (PDF)", "Dimensions Template"],
@@ -226,23 +226,23 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "kobenhavn-chair",
-    name: "København Minimalist Lounge Chair",
+    name: "Kano Minimalist Lounge Chair",
     category: "Living Room",
     price: 2400,
-    material: "Saddle Leather & Smoked Oak",
-    brand: "Nordic Craft",
-    collection: "Nordic Sol",
+    material: "Saddle Leather & Smoked Teak",
+    brand: "Abeokuta Crafts",
+    collection: "Heritage Sol",
     image: siteImages.productKobenhavnMain,
     images: [
       siteImages.productKobenhavnGallery1
     ],
-    description: "Evoking timeless Scandinavian comfort, this lounge chair suspends hand-stitched cognac saddle leather over a beautifully joinered frame of solid smoked European Oak.",
+    description: "Evoking timeless comfort, this lounge chair suspends hand-stitched cognac saddle leather over a beautifully joinered frame of solid smoked local Teak.",
     rating: 4.9,
     reviewsCount: 20,
     dimensions: "W: 30\" x D: 32\" x H: 30\"",
     specifications: [
-      "Frame: FSC-certified European Oak in smoked oil finish",
-      "Leather: Full-grain vegetable tanned saddle leather from Tuscany",
+      "Frame: FSC-certified Teak in smoked oil finish",
+      "Leather: Full-grain vegetable tanned saddle leather from Kano",
       "Joints: Traditional tenon and mortise joinery",
       "Weight capacity: Up to 350 lbs"
     ],
@@ -261,7 +261,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: "Warm minimalism is more than just removing objects; it is an active curation of tactile sensations. Modern luxurious living spaces are moving away from cold, clinical glass-and-steel interiors towards organic, earthly alternatives. Key steps to master warm minimalism: 1. Opt for textured plaster instead of flat drywall. 2. Layer materials like bouclé, unlacquered brass, and unfilled travertine. 3. Prioritize architectural lighting over harsh recessed spot fixtures.",
     image: siteImages.blogWarmMinimalism,
     date: "July 12, 2026",
-    author: "Elena Rostov (Founder)",
+    author: "Emeka Obi (Founder)",
     readTime: "5 min read",
     featured: true
   },
@@ -273,7 +273,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: "Lighting should never be an afterthought. In award-winning design, we do not light spaces; we cast shadows. By concealing LED ribbons inside baseboards, ceiling valances, and within raw stone cavities, we create floating elements. This article guides you on integrating DALI dimmers, low-glare darklight technology, and matching temperature profiles across a cohesive home environment.",
     image: siteImages.blogLightingArchitecture,
     date: "June 28, 2026",
-    author: "Marcello Venti (Lighting Director)",
+    author: "Chidi Okafor (Lighting Director)",
     readTime: "7 min read",
     featured: false
   },
@@ -285,7 +285,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: "Selecting high-end stone is like picking out museum artwork. Every slab of Arabescato, Travertine or Calacatta Gold tells a distinct structural story. We discuss the visual differences between cross-cut and vein-cut stones, how to treat unfilled pores for dining versus washroom spaces, and why unsealed honing offers the ultimate premium organic finish.",
     image: siteImages.blogStoneCraftsmanship,
     date: "May 15, 2026",
-    author: "Nils Sjöberg (Senior Architect)",
+    author: "Tunde Adebayo (Senior Architect)",
     readTime: "9 min read",
     featured: false
   }
@@ -296,21 +296,21 @@ export const MATERIALS: MaterialItem[] = [
     id: "arabescato-marble",
     name: "Arabescato Vagli Marble",
     type: "Marble",
-    description: "An incredibly elegant Tuscan marble characterized by bold, swirling charcoal grey veins on an icy white crystalline background.",
+    description: "An incredibly elegant marble characterized by bold, swirling charcoal grey veins on an icy white crystalline background.",
     image: siteImages.materialArabescato,
     color: "White / Dark Grey",
-    origin: "Tuscany, Italy",
+    origin: "Kogi State, Nigeria",
     finishes: ["Honed (Matte Premium)", "Polished", "Leathered"],
     suitability: ["Kitchen Countertops", "Fireplace Accents", "Luxury Baths", "Custom Vanities"]
   },
   {
     id: "smoked-oak",
-    name: "Smoked European White Oak",
+    name: "Smoked Nigerian Mahogany",
     type: "Hardwood",
-    description: "Deeply fumed with ammonia before being saturated with organic natural plant oils, yielding an incredibly rich espresso tone with high grain contrast.",
+    description: "Deeply fumed before being saturated with organic natural plant oils, yielding an incredibly rich espresso tone with high grain contrast.",
     image: siteImages.materialSmokedOak,
-    color: "Dark Espresso Walnut Tone",
-    origin: "Bavaria, Germany",
+    color: "Dark Espresso Mahogany Tone",
+    origin: "Edo State, Nigeria",
     finishes: ["Brushed Oil", "Ultra-Matte Lacquer"],
     suitability: ["Floor Plankings", "Custom Architectural Joinery", "Slat Walls"]
   },
@@ -321,18 +321,18 @@ export const MATERIALS: MaterialItem[] = [
     description: "Pure raw architectural brass with no chemical sealcoat. It oxidizes, patinates, and deepens in warmth based on localized air and human touch.",
     image: siteImages.materialBrass,
     color: "Satin Warm Gold to Dark Patina",
-    origin: "Valais, Switzerland",
+    origin: "Calabar, Nigeria",
     finishes: ["Satin Brushed", "Hand-Rubbed Bronze"],
     suitability: ["Kitchen Plumbing Faucets", "Cabinet Hardware", "Custom Light Fixtures"]
   },
   {
     id: "belgian-linen",
-    name: "Antwerp Heavy-Weight Flax Linen",
+    name: "Organic Flax Cotton Linen",
     type: "Fabrics",
-    description: "Spun from natural organic flax fibers harvested in Belgium, containing beautiful irregular slubs that create depth and softness.",
+    description: "Spun from natural organic flax cotton harvested locally, containing beautiful irregular slubs that create depth and softness.",
     image: siteImages.materialBelgianLinen,
     color: "Oatmeal Beige / Alabaster",
-    origin: "Antwerp, Belgium",
+    origin: "Kano, Nigeria",
     finishes: ["Tumbled Soft", "Pre-washed Matte"],
     suitability: ["Drapery panels", "Lounge Upholstery", "Bed Headboards"]
   }
@@ -341,27 +341,27 @@ export const MATERIALS: MaterialItem[] = [
 export const TEAM: TeamMember[] = [
   {
     id: "elena-rostov",
-    name: "Elena Rostov",
+    name: "Emeka Obi",
     role: "Founder & Creative Director",
     image: siteImages.teamElena,
-    bio: "With over 18 years in premium architecture and luxury development, Elena designs with a focus on tactile authenticity and architectural harmony. Her work has been showcased in Architectural Digest, Elle Decor, and ArchDaily.",
-    social: { instagram: "@elena_interiors", linkedin: "elena-rostov" }
+    bio: "With over 18 years in premium architecture and luxury development across West Africa, Emeka designs with a focus on tactile authenticity and architectural harmony. His work has been showcased in architectural journals and luxury forums.",
+    social: { instagram: "@emeka_imb", linkedin: "emeka-obi" }
   },
   {
     id: "nils-sjoberg",
-    name: "Nils Sjöberg",
+    name: "Tunde Adebayo",
     role: "Senior Architectural Architect",
     image: siteImages.teamNils,
-    bio: "Nils studied at KTH Royal Institute of Technology in Stockholm. He brings a pristine Scandinavian aesthetic, emphasizing raw stone, timber structures, and clever concealed storage layout designs.",
-    social: { linkedin: "nils-sjoberg" }
+    bio: "Tunde studied at the University of Lagos and completed his master's in architectural engineering. He brings a pristine contemporary African and minimalist aesthetic, emphasizing raw stone, sustainable hardwood, and clever concealed layouts.",
+    social: { linkedin: "tunde-adebayo" }
   },
   {
     id: "marcello-venti",
-    name: "Marcello Venti",
+    name: "Chidi Okafor",
     role: "Director of Lighting & Atmosphere",
     image: siteImages.teamMarcello,
-    bio: "Marcello views lighting as invisible paint. He develops custom lighting profiles, specifying low-glare fixtures and integration details that ensure homes shift beautifully from dawn to midnight.",
-    social: { instagram: "@marcello_lighting" }
+    bio: "Chidi views lighting as invisible paint. He develops custom lighting profiles, specifying low-glare fixtures and integration details that ensure homes shift beautifully from dawn to midnight.",
+    social: { instagram: "@chidi_lighting" }
   }
 ];
 

@@ -100,7 +100,7 @@ export const siteContent = {
   tagline: "Interior Architecture",
   slogan: "Bespoke Interior Architecture & Finishes",
   foundingYear: "2011",
-  officeLocations: ["Port Harcourt", "Rivers State"],
+  officeLocations: ["Port Harcourt, Rivers State (GMT+1)", "Lagos, Nigeria"],
   headOfficeCity: "Port Harcourt",
   email: "concierge@imbhomes.com",
   phone: "+234 803 555 0199",
@@ -117,14 +117,14 @@ export const siteContent = {
   ],
 
   // Footer Content
-  footerDescription: "Translating abstract aspirations into tactile physical spaces with architectural honesty. Operating from Rumuokwachi, Port Harcourt, Rivers State.",
+  footerDescription: "Translating abstract aspirations into tactile physical spaces with architectural honesty. Operating from Rumuokwachi, Port Harcourt, Rivers State, Nigeria. All project files and consultations aligned with WAT (GMT+1) local time.",
   newsletterTitle: "IMB Journal",
   newsletterSubtext: "Subscribe to receive curated architectural digests and project updates.",
   newsletterWelcomeMessage: "Subscription confirmed. Welcome to the IMB Circle.",
 
   // Home View Content
   homeHeroTitle: "Translating Aspirations Into Spatial Stillness.",
-  homeHeroSubtext: "Bespoke high-end interior architecture, architectural curation, and luxury home styling.",
+  homeHeroSubtext: "Bespoke high-end interior architecture, premium finishes, and luxury home styling tailored for elite Nigerian residences.",
   homeWhyTitle: "An Unwavering Standard of Craftsmanship",
   homeWhySubtext: "Why IMB HOME FINISHERS",
   homeCurationLabel: "IMB Home Finishers Curation",
@@ -148,7 +148,7 @@ export const siteContent = {
   consultationAccreditation: "IMB HOME FINISHERS is fully accredited and insured with a ₦15 Billion general liability architecture standard.",
 
   // AI Room Planner
-  aiEngineContactText: "Contacting IMB HOME FINISHERS AI engine...",
+  aiEngineContactText: "Contacting IMB HOME FINISHERS...",
   aiCurationActiveTitle: "IMB Home Finishers Curation active",
-  aiGenerativeDraftFooter: "IMB Home Finishers Generative Draft"
+  aiGenerativeDraftFooter: "IMB Home Finishers Curation"
 };
